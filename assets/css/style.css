@@ -183,7 +183,69 @@ body {
                 transform: scale(0.98)
             }
     
-    
-    
         
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    display: inline-flex;
+    margin: 100px 200px;
+
+}
+
+#redes_sociais h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#redes_sociais p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#icones_redes_sociais{
+    display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 24.5px;
+        margin-top: 20px;
+}
+
+.formulario{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 600px;
+    
+
+}
+
+.formulario label{
+    display: flex;
+    padding: 5px;
+    font-size: 15px;   
+    font-weight: 550;
+
+}
+
+.formulario input{
+    padding: 7px;
+}
+
+.formulario button{
+    margin-top: 10px;
+background-color: var(--gray-200);
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: var(--purple-800);
+    padding: 30px;
+    color: var(--white);
 }
