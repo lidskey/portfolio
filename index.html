@@ -45,7 +45,8 @@
                 <h1>Mundos diferentes para pessoas diferentes</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non quam tristique, volutpat mauris nec,
                     posuere nulla. Curabitur sed urna sed mauris faucibus interdum. Vivamus.</p>
-                <a class="button" target="_blank" href="https://github.com/conteudoGeneration" alt="Github da Generation Brasil">
+                <a class="button" target="_blank" href="https://github.com/conteudoGeneration"
+                    alt="Github da Generation Brasil">
                     Explorar</a>
             </article>
 
@@ -56,31 +57,6 @@
 
         <section id="about">
 
-            <!-- Foto do Perfil do Github -->
-            <img src="assets/img/user_01.svg" alt="Foto do Perfil do Github" width="250">
-
-            <!-- Texto Sobre você -->
-            <article id="sobre_texto">
-
-                <h1>Sobre mim</h1>
-
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Quibusdam odit voluptates incidunt inventore rem error harum
-                    blanditiis accusamus vitae, minus fugit consequatur?
-                    Dolorum maiores magni deleniti modi sit laudantium totam!
-                </p>
-
-                <!-- Informações do Github -->
-                <div id="sobre_github">
-
-                    <a class="button" target="_blank" href="https://github.com/conteudoGeneration">Github</a>
-                    <p>200 Seguidores</p>
-                    <p>100 Repositórios</p>
-
-                </div>
-
-            </article>
 
         </section>
 
@@ -94,8 +70,8 @@
                     Quod error veniam in voluptatem magni quisquam</p>
 
                 <div id="icones_redes_sociais">
-        
-                        <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+
+                    <img src="assets/img/linkedin.svg" alt="LinkedIn" />
                     </a>
                     <a href="">
                         <img src="assets/img/github.svg" alt="Github" />
@@ -107,10 +83,11 @@
 
             </article>
 
-            <form class="formulario" action="sent" method="POST">
+            <form id="formulario" action="https://formsubmit.co/4adad767ef7224c9e66134231547f5a0" method="POST">
 
-                <!-- Definição: Rótulo associado a um elemento de formulário, como uma caixa de texto.
-                                            Função: O atributo for associa o rótulo a um elemento específico pelo seu id, facilitando a navegação para usuários de leitores de tela. -->
+                <input type="hidden" name="_next" value="http://localhost:5500/sucesso.html">
+                <input type="hidden" name="_captcha" value="false">
+
                 <label for="name">Nome: </label>
                 <input id="name" type="text" name="name" placeholder="Digite seu nome">
                 <span id="txtNome"></span>
@@ -138,6 +115,7 @@
         <p>Desenvolvido por ☆Liara Cristina☆ - 2024</p>
     </footer>
 
+    <script src="assets/js/script.js"> </script>
 </body>
 
 </html>
